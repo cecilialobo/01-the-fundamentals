@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+header {
+    height: 30px;
+    text-align: right;
+    padding: 10px 20px 0 20px;
+    font-weight: 200;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+.aboutMe-link {
+    padding: 10px;
+}
+.contact-link {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 40px;
+}
+
+img {
+    border-radius: 50%; 
+    width: 365px; 
+    height: 400px;
+    padding: 20px;
+}
+
+.photo {
+    display: inline;
+}
+
+.title {
+    display: inline;
+}

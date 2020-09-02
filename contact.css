@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30px;
+    text-align: right;
+    padding: 10px 20px 10px 20px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+.aboutMe-link {
+    padding: 10px;
+}
+
+.home-link {
+    padding: 10px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}

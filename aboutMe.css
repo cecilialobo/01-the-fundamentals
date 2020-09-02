@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30px;
+    text-align: right;
+    padding: 10px 20px 10px 20px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.textContent {
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+p {
+    font-size: 26px;
+    margin: 50px 200px 60px 200px;
+    text-align: center;
+    
+}
+
+.index-link {
+    padding: 10px;
+}
+.contact-link {
+    padding: 10px;
+}
