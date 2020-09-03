@@ -5,6 +5,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
+    color: #3e3c3e;
 }
 header {
     height: 30px;
@@ -19,11 +20,12 @@ a {
 }
 
 a:hover {
-    color: rebeccapurple;
+    color: #A3293B
 }
 
-.icons {
-    font-size: 30px;
+.footer {
+    font-size: 15px;
+    margin-top: 200px;
 }
 
 .aboutMe-link {
@@ -34,12 +36,13 @@ a:hover {
 }
 
 h1 {
-    font-size: 70px;
+    margin-top: 30px;
+    font-size: 60px;
 }
 
 h3 {
     font-weight: 200;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 img {
@@ -50,9 +53,14 @@ img {
 }
 
 .photo {
-    display: inline;
+    display: inline-block;
 }
 
 .title {
-    display: inline;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.fa-github .fa-linkedin-in {
+    font-size: 20px;
 }
