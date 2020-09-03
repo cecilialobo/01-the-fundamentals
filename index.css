@@ -5,7 +5,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    color: #3e3c3e;
+    color: gray;
 }
 header {
     height: 30px;
@@ -14,53 +14,82 @@ header {
     font-weight: 200;
     text-decoration: none;
 }
+
+header:hover {
+    background-color: #EFD9CE;
+}
+
+.logo-header {
+    float: left;
+    display: inline;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
 a {
     text-decoration: none;
     color: gray;
 }
 
 a:hover {
-    color: #A3293B
+    color: #DE6854;
 }
 
 .footer {
+    display: block;
+    position: absolute;
     font-size: 15px;
-    margin-top: 200px;
+    margin-top: 45%;
+    margin-left: 45%;
+    font-weight: 600;
 }
 
-.aboutMe-link {
-    padding: 10px;
-}
-.contact-link {
+.aboutMe-link, .contact-link, .travel-link {
+    font-size: 18px;
     padding: 10px;
 }
 
 h1 {
     margin-top: 30px;
+    font-weight: 600;
     font-size: 60px;
+    color: #DE6854;
 }
 
 h3 {
     font-weight: 200;
     font-size: 30px;
+    color: #DE6854;
 }
 
-img {
-    border-radius: 50%; 
-    width: 365px; 
-    height: 400px;
-    padding: 20px;
+main {
+    padding: 40px 30px 0 30px; 
+}
+
+.text {
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 40%;
+    float: left;
 }
 
 .photo {
-    display: inline-block;
+    border-radius: 15%;
+    width: 35%;
+    float: right; 
+    height: 500px;
+    padding: 20px;
+    margin-right: 100px;
+    border: solid #EFD9CE;
 }
 
-.title {
-    display: inline-block;
-    padding: 10px 20px;
-}
-
-.fa-github .fa-linkedin-in {
+.fa-github {
     font-size: 20px;
+    padding: 10px 0;
+}
+
+.fa-linkedin-in {
+    font-size: 20px;
+    padding: 10px 0;
 }
