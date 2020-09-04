@@ -8,10 +8,9 @@ body {
     color: gray;
 }
 header {
-    height: 30px;
+    height: 40px;
     text-align: right;
     padding: 10px 20px 0 20px;
-    font-weight: 200;
     text-decoration: none;
 }
 
@@ -36,18 +35,10 @@ a:hover {
     color: #DE6854;
 }
 
-.footer {
-    display: block;
-    position: absolute;
-    font-size: 15px;
-    margin-top: 45%;
-    margin-left: 45%;
-    font-weight: 600;
-}
-
 .aboutMe-link, .contact-link, .travel-link {
     font-size: 18px;
     padding: 10px;
+    font-weight: 300;
 }
 
 h1 {
@@ -92,4 +83,13 @@ main {
 .fa-linkedin-in {
     font-size: 20px;
     padding: 10px 0;
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    margin-top: 45%;
+    margin-left: 45%;
+    font-weight: 600;
 }

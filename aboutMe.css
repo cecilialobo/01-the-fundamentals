@@ -3,21 +3,29 @@
     padding: 0;
 }
 
-header {
-    height: 30px;
-    text-align: right;
-    padding: 10px 20px 10px 20px;
-    font-weight: 200;
-    text-decoration: none;
-}
-
 body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
+    color: gray;
 }
 
-.textContent {
-    font-weight: 200;
+header {
+    height: 40px;
+    text-align: right;
+    padding: 10px 20px 0 20px;
+    text-decoration: none;
+}
+
+header:hover {
+    background-color: #EFD9CE;
+}
+
+.logo-header {
+    float: left;
+    display: inline;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 a {
@@ -26,23 +34,38 @@ a {
 }
 
 a:hover {
-    color: rebeccapurple;
+    color: #DE6854;
 }
 
-.icons {
-    font-size: 30px;
+.contact-link, .travel-link {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
 }
 
-p {
+h1 {
+    margin-top: 30px;
+    font-weight: 400;
+    color: #DE6854;  
+}
+
+.textContent {
+    font-weight: 200;
+}
+
+.textContent {
     font-size: 26px;
     margin: 50px 200px 60px 200px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
-.index-link {
-    padding: 10px;
-}
-.contact-link {
-    padding: 10px;
+.footer {
+    text-align: center;
+    color: gray;
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-left: 46%;
 }

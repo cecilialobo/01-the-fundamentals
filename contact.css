@@ -3,12 +3,28 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
 header {
-    height: 30px;
+    height: 40px;
     text-align: right;
-    padding: 10px 20px 10px 20px;
-    font-weight: 200;
+    padding: 10px 20px 0 20px;
     text-decoration: none;
+}
+
+header:hover {
+    background-color: #EFD9CE;
+}
+
+.logo-header {
+    float: left;
+    display: inline;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 a {
@@ -17,22 +33,29 @@ a {
 }
 
 a:hover {
-    color: rebeccapurple;
+    color: #DE6854;
 }
 
-.icons {
-    font-size: 30px;
-}
-
-.aboutMe-link {
+.aboutMe-link, .travel-link {
+    font-size: 18px;
     padding: 10px;
+    font-weight: 300;
 }
 
-.home-link {
-    padding: 10px;
+form {
+    margin-top: 5%;
+}
+.message {
+    width: 500px;
 }
 
-body {
-    font-family: 'Work Sans', sans-serif;
+.footer {
     text-align: center;
+    color: gray;
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 6%;
+    margin-left: 46%;
 }

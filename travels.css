@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: gray;
+}
+header {
+    height: 40px;
+    text-align: right;
+    padding: 10px 20px 0 20px;
+    text-decoration: none;
+}
+
+header:hover {
+    background-color: #EFD9CE;
+}
+
+.logo-header {
+    float: left;
+    display: inline;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: #DE6854;
+}
+
+.aboutMe-link, .contact-link, .travel-link {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #DE6854;
+}
+
+.div1 {
+    width: 250px;
+    height: 200px;
+    border-radius: 30%;
+}
+
+.photo-row {
+    margin: 30px 20px 20px 10px;
+}
+
+.div2 {
+    display: inline;
+    padding: 20px 60px;
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    margin-top: 45%;
+    margin-left: 45%;
+    font-weight: 600;
+}
