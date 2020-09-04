@@ -42,11 +42,22 @@ a:hover {
     font-weight: 300;
 }
 
-form {
-    margin-top: 5%;
+main {
+    width: auto;
+    margin: 60px 300px;
 }
+
+.name-form {
+    width: 300px;
+}
+
+.email {
+    width: 300px;
+}
+
 .message {
-    width: 500px;
+    width: 700px;
+    height: 300px;
 }
 
 .footer {
