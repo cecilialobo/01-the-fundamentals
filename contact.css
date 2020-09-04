@@ -55,8 +55,8 @@ main {
     width: 300px;
 }
 
-.message {
-    width: 700px;
+textarea {
+    width: 750px;
     height: 300px;
 }
 
