@@ -41,14 +41,14 @@ a:hover {
     font-weight: 300;
 }
 
-h1 {
+.title-index {
     margin-top: 30px;
     font-weight: 600;
     font-size: 60px;
     color: #DE6854;
 }
 
-h3 {
+.text-index {
     font-weight: 200;
     font-size: 30px;
     color: #DE6854;
