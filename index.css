@@ -131,6 +131,11 @@ main {
     .logo-header {
         font-size: 14px;
     }
+
+    .title-index {
+        font-size: 35px;
+    }
+
     .photo {
         height: 70%;
         width: 60%;
