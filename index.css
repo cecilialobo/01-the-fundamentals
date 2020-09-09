@@ -94,3 +94,49 @@ main {
     margin-left: 45%;
     font-weight: 600;
 }
+
+@media (max-width: 1024px) {
+    .aboutMe-link, .contact-link, .travel-link {
+        font-size: 14px;
+    }
+
+    .photo {
+        display: block;
+        height: 50%;
+        width: 40%;
+        margin-right: 26%;
+    }
+
+    .text {
+        margin-top: 0;
+        float: none;
+        width: 70%;
+        margin: 0;
+        padding-left: 15%;
+    }
+
+    .title-index {
+        font-size: 40px;
+    }
+    
+    .text-index {
+        font-size: 20px;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-header {
+        font-size: 14px;
+    }
+    .photo {
+        height: 70%;
+        width: 60%;
+        border: none;
+        margin-right: 10%;
+    }
+
+
+}
