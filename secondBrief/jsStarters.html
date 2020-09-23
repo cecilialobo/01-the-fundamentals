@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Beginners Tutorial | by Cecilia Lobo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto+Mono:wght@300;400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba5ff8c0a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1><span class="jsBox">JS</span> Beginners Tutorial</h1>
+    <h3>by <a class="gitLink" href="https://github.com/cecilialobo">Cecilia Lobo</a></h3>
+    <h2>What is javaScript?</h2>
+    <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+       there and display static information for you to look at, like displaying interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved.</p>
+    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. 
+       The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1.</p>
+    <p>It is the third layer of the layer cake of standard web technologies, the first two are <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a> and <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS">CSS</a>.</p>
+    <p>Whenever you're ready, click <a id="link1" href="#">here</a> to dive deep into the JS world!</p>    
+
+    <div class="hidden" id="div1">
+        <h2>Console</h2>
+        <h3>The Developer Tools</h3>
+        <p>The Browser Developer Tools is a set of web developer tools built into your browser. You can use them to examine, edit, and debug HTML, CSS, and JavaScript.</p>
+        <h3>Interacting with JS in the browser</h3>
+        <p>One of the tools you have in the browser is the Console. You can use the console to see messages logged by a web page and interact with the page using JavaScript.</p> 
+        <!-- <p>The console allows you to type JavaScript directly in this webpage, which you will need to do in order to keep going through the tutorial.</p>     -->
+        <p>The console method <a href="https://developer.mozilla.org/en-US/docs/Web/API/Console/log">log( )</a> outputs a message to the web Console. </p>
+        <p>But how to write a console.log in the Console? Type the following snippet of code in the box below and press check code.</p>
+        <p class="codeSnippet" id="codeSnippet1">console.log ("Hello, World!")</p>
+        <button class="copySnippet" id="copySnippet1">Copy to clipboard</button>
+        <input class="input" id="input1" type="text">
+        <button class="checkCode" id="checkCode1">Check code</button>
+    </div>
+
+    <div class="hidden" id="p1">
+        <p><i class="fas fa-award"></i> Awesome!! Now, open your Console to see the output of the code you just typed! To go on, click <a id="link2" href="#">here</a> 
+        and let's see how JS stores the information it needs!</p>
+    </div>
+
+    <div class="hidden" id="div2">
+        <h2>Variables</h2>
+        <h3>What is a variable?</h3>
+        <p>A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. But one special thing about variables is that their contained values can change. </p>
+        <p>JavaScript has three kinds of variable declarations:</p>
+        <p><span class="variables">var</span> Declares a variable, optionally initializing it to a value.</p>
+        <p><span class="variables">let</span> Declares a block-scoped, local variable, optionally initializing it to a value.</p>
+        <p><span class="variables">const</span> Declares a block-scoped, read-only named constant.</p>    
+        <p>Give it a try. In the box below, type:</p> 
+        <p class="codeSnippet" id="codeSnippet2">let myVariable = "My first variable"</p>
+        <button class="copySnippet" id="copySnippet2">Copy to clipboard</button>
+        <input class="input" id="input2" type="text">
+        <button class="checkCode" id="checkCode2">Check code</button>
+        <p>You can check the variable you created in the Console.</p>
+    </div>
+    
+    <div class="hidden" id="div3">
+        <p><i class="fas fa-trophy"></i> Amazing! You just created your first variable. Now type the text below and check the console again.</p> 
+        <p class="codeSnippet" id="codeSnippet3">const otherVariable = "My second variable"</p>
+        <button class="copySnippet" id="copySnippet3">Copy to clipboard</button>
+        <input class="input" id="input3" type="text">
+        <button class="checkCode" id="checkCode3">Check code</button>
+    </div>
+    
+    <div class="hidden" id="div4">
+        <p>To discover more about variables, here is a useful <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables">link</a>.</p>
+        <p>So far so good! Now, let's see what type of variables there are in JavaScript. Click <a id="link3" href="#">here</a> to go on!</p>
+    </div>    
+    
+    <div class="hidden" id="div5">
+        <h2>Variable Types</h2>
+        <p>There are a few different types of data we can store in variables.</p>
+        
+        <h3>Numbers</h3>
+        <p>You can store numbers in variables, either whole numbers like 30 (also called integers) or decimal numbers like 2.456 (also called floats or floating point numbers).</p>
+        
+        <h3>Strings</h3>
+        <p>Strings are pieces of text. When you give a variable a string value, you need to wrap it in single or double quote marks; otherwise, JavaScript tries to interpret it as another variable name. So <span class="codeSnippet">"my first variable"</span> is a string type variable.</p>
+        
+        <h3>Booleans</h3>
+        <p>Booleans are true/false values — they can have two values, <span class="codeSnippet">true</span> or <span class="codeSnippet">false</span>. These are generally used to test a condition, after which code is run as appropriate.</p>
+        <p>Now that you learned a lot of concepts, let's try something a little more interactive? It's time to <a href="#" id="link4">ALERTS!</a></p>
+    </div>
+
+    <div class="hidden"id="div6">
+        <h2>alert ( )</h2>
+        <p>It's a native JavaScript function that comes with every browser. It shows a message and waits for the user to press “OK”.</p>
+        <p>The mini-window with the message is called a modal window. The word “modal” means that the visitor can’t interact with the rest of the page, press other buttons, etc, until they have dealt with the window. In this case – until they press “OK”.</p>
+        <p>Let's make our first alert. Type in the box below:</p>
+        <p class="codeSnippet" id="codeSnippet4">alert("My first alert!")</p>
+        <button class="copySnippet" id="copySnippet4">Copy to clipboard</button>
+        <input class="input" id="input4" type="text">
+        <button class="checkCode" id="checkCode4">Check code</button>
+    </div>
+</body>
+    <script src="jsStarters.js"></script>
+</html>

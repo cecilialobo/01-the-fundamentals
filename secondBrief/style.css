@@ -1,0 +1,104 @@
+body {
+    width: 45rem;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1, h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+.jsBox {
+    display: inline-flex;
+    background-color: #ffe270;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 4rem;
+    height: 4rem;
+    padding-right: 0.5rem;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.gitLink {
+   text-decoration: none; 
+   color: #CB525A;
+}
+
+div {
+    margin: 5rem auto;
+    padding: 0 1rem;
+    border: #ffe270 0.1em solid;
+}
+
+p {
+    line-height: 2;
+}
+
+.hidden {
+    display: none;
+}
+
+i {
+    font-size: 2rem;
+    color: #FF8811;
+}
+
+.codeSnippet {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    background-color: #E9E9ED;
+    width: fit-content;
+}
+
+.input {
+    margin: 1.5em 0;
+    background-color: #DDDDE3;
+    height: 2em;
+    width: 15em;
+}
+
+.checkCode {
+    height: 2rem;
+    border: none;
+    background-color: #CB525A;
+    opacity: 0.8;
+    border-radius: 0.5em;
+    color: snow;
+}
+
+.copySnippet {
+    background: none;
+    color: #8F8FA3;
+    border: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+div a {
+    font-weight: 700;
+    text-decoration: #FF8811;
+}
+
+p a {
+    font-weight: 700;
+    text-decoration: #FF8811;
+}
+
+a:hover {
+    color: #FF8811;
+}
+
+.variables {
+    font-weight: 700;
+}
+
+.input {
+    margin-top: 0;
+}
