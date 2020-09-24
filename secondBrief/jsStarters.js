@@ -1,12 +1,4 @@
-//Makes the links open the next div
-// let showDiv1 = document.querySelector("#div1")
-// let link1 = document.getElementById("link1")
-
-// link1.addEventListener("click", function () {
-//     showDiv1.style.display = "block";
-// });
-
-// //Function to apply the code to all the divs
+//Function to link open the next div
 const onClick = (divId, linkId) => {
     let showDiv = document.getElementById(divId);
     let link = document.getElementById(linkId);
@@ -17,17 +9,6 @@ const onClick = (divId, linkId) => {
 }
 
 onClick("div1", "link1");
-
-//Identify the code snippet
-// const buttonToCheck = document.querySelector("#checkCode1");
-// buttonToCheck.addEventListener("click", function getInputValue(){
-//     // Selecting the input element and get its value 
-//     let inputVal = document.querySelector("#input1").value;
-//     let showDiv = document.querySelector("#div2")
-//     if (inputVal == 'console.log ("Hello, World!")') {
-//         showDiv.style.display = "block"   
-//     }
-// });
 
 //Function to apply code snippet identifier to all divs
 function checkCode (buttonId, codeSnippetId, showId, inputId) {
@@ -57,12 +38,14 @@ onClick ("div5", "link3");
 onClick ("div6", "link4");
 
 
-// function to copy the snippet of code
-// function copySnippet (codeSnippetId, copySnippetId) {
-//     let codeSnippet = document.getElementById(codeSnippetId).innerHTML
-//     let copySnippet = document.getElementById(copySnippetId)
 
-//     copySnippet.addEventListener("click", function() {
+//Does not work :(
+// function to copy the snippet of code
+// function copySnippet (codeSnippetId, copyButtonId) {
+//     let codeSnippet = document.getElementById(codeSnippetId).innerHTML
+//     let copyButton = document.getElementById(copyButtonId)
+
+//     copyButton.addEventListener("click", function() {
 //         codeSnippet.select()
 //         document.execCommand("copy")
 //     })
@@ -71,20 +54,7 @@ onClick ("div6", "link4");
 // copySnippet ("codeSnippet1", "copySnippet1");
 
 
-function myFunction() {
-    let copySnippet = document.getElementById("copySnippet1")
-    let copyText = document.getElementById("codeSnippet1");
-
-    copySnippet.addEventListener ("click", function() {
-        copyText.select();
-        document.execCommand("copy");
-    })
-}
-
-myFunction();
-
-
-//Does not work :(
+//Scroll into view
 // let div2 = document.getElementById("div2");
 // div2.addEventListener("click", function() {
 //     div2.scrollIntoView()
