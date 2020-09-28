@@ -19,27 +19,26 @@
     <p>It is the third layer of the layer cake of standard web technologies, the first two are <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a> and <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS">CSS</a>.</p>
     <p>Whenever you're ready, click <button class="link" id="link1">here</button> to dive deep into the JS world!</p>    
 
-    <div  id="div1">
+    <div class="hidden" id="div1">
         <h2>Console</h2>
         <h3>The Developer Tools</h3>
         <p>The Browser Developer Tools is a set of web developer tools built into your browser. You can use them to examine, edit, and debug HTML, CSS, and JavaScript.</p>
         <h3>Interacting with JS in the browser</h3>
         <p>One of the tools you have in the browser is the Console. You can use the console to see messages logged by a web page and interact with the page using JavaScript.</p> 
-        <!-- <p>The console allows you to type JavaScript directly in this webpage, which you will need to do in order to keep going through the tutorial.</p>     -->
         <p>The console method <a href="https://developer.mozilla.org/en-US/docs/Web/API/Console/log">log( )</a> outputs a message to the web Console. </p>
         <p>But how to write a console.log in the Console? Type the following snippet of code in the box below and press check code.</p>
-        <p class="codeSnippet" id="codeSnippet1">console.log ("Hello, World!")</p>
+        <input type="text" class="codeSnippet" id="codeSnippet1" value='console.log ("Hello, World!")'></input>
         <button class="copyButton" id="copyButton1">Copy to clipboard</button>
         <input class="input" id="input1" type="text">
         <button class="checkCode" id="checkCode1">Check code</button>
     </div>
 
-    <div  id="p1">
+    <div class="hidden" id="p1">
         <p><i class="fas fa-award"></i> Awesome!! Now, open your Console to see the output of the code you just typed! To go on, click <button class="link" id="link2">here</button> 
         and let's see how JS stores the information it needs!</p>
     </div>
 
-    <div  id="div2">
+    <div class="hidden" id="div2">
         <h2>Variables</h2>
         <h3>What is a variable?</h3>
         <p>A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. But one special thing about variables is that their contained values can change. </p>
@@ -48,27 +47,27 @@
         <p><span class="variables">let</span> Declares a block-scoped, local variable, optionally initializing it to a value.</p>
         <p><span class="variables">const</span> Declares a block-scoped, read-only named constant.</p>    
         <p>Give it a try. In the box below, type:</p> 
-        <p class="codeSnippet" id="codeSnippet2">let myVariable = "My first variable"</p>
+        <input type="text" class="codeSnippet" id="codeSnippet2" value='let myVariable = "My first variable"'></input>
         <button class="copyButton" id="copyButton2">Copy to clipboard</button>
         <input class="input" id="input2" type="text">
         <button class="checkCode" id="checkCode2">Check code</button>
     </div>
     
-    <div  id="div3">
+    <div class="hidden" id="div3">
         <p><i class="fas fa-trophy"></i> Amazing! You just created your first variable. Now type the text below and check the console again.</p> 
-        <p class="codeSnippet" id="codeSnippet3">const otherVariable = "My second variable"</p>
+        <input type="text" class="codeSnippet" id="codeSnippet3" value='const otherVariable = "My second variable"'></input>
         <button class="copyButton" id="copyButton3">Copy to clipboard</button>
         <input class="input" id="input3" type="text">
         <button class="checkCode" id="checkCode3">Check code</button>
         <p>Now try it in your Console! Create other variables and try changing its values.</p>
     </div>
     
-    <div  id="div4">
+    <div class="hidden" id="div4">
         <p>To discover more about variables, here is a useful <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables">link</a>.</p>
-        <p>So far so good! Now, let's see what type of variables there are in JavaScript. Click <button class="link" id="link3">here</a> to go on!</p>
+        <p>So far so good! Now, let's see what type of variables there are in JavaScript. Click <button class="link" id="link3">here</button> to go on!</p>
     </div>    
     
-    <div  id="div5">
+    <div class="hidden" id="div5">
         <h2>Data Types</h2>
         <p>There are a few different types of data we can store in variables.</p>
         
@@ -83,39 +82,55 @@
         <p>Now that you learned a lot of concepts, let's try something a little more interactive? It's time to <button class="link" id="link4">ALERTS</button>!</p>
     </div>
 
-    <div id="div6">
+    <div class="hidden" id="div6">
         <h2>alert ( )</h2>
         <p>It's a native JavaScript function that comes with every browser. It shows a message and waits for the user to press “OK”.</p>
         <p>The mini-window with the message is called a modal window. The word “modal” means that the visitor can’t interact with the rest of the page, press other buttons, etc, until they have dealt with the window. In this case – until they press “OK”.</p>
         <p>Let's make our first alert. Type in the box below:</p>
-        <p class="codeSnippet" id="codeSnippet4">alert("This is my first alert!")</p>
+        <input type="text" class="codeSnippet" id="codeSnippet4" value='alert("This is my first alert!")'></input>
         <button class="copyButton" id="copyButton4">Copy to clipboard</button>
         <input class="input" id="input4" type="text">
         <button class="checkCode" id="checkCode4">Check code</button>
     </div>
 
-    <div  id="div7">
-        <p><i class="far fa-laugh-wink"></i> You did your first alert! Pretty exciting right? Now let's discover the <button class="link">PROMPT</button>!</p>
+    <div class="hidden" id="div7">
+        <p><i class="far fa-laugh-wink"></i> You did your first alert! Pretty exciting right? Now let's discover the <button class="link" id="link5">PROMPT</button>!</p>
     </div>
 
-    <div>
+    <div class="hidden" id="div8">
         <h2>prompt ( )</h2>
         <p>It's a method that displays a dialog box that prompts the visitor for input.</p>
         <p>A box is often used if you want the user to input a value before entering a page.</p>
         <p>The <span class="codeSnippet">prompt ( )</span> method returns the input value if the user clicks "OK". If the user clicks "cancel" the method returns null.</p>
         <p><span class="note">NOTE:</span> When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value. Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is closed.</p>
         <p>Type in the box below and see what a prompt looks like:</p>
-        <p class="codeSnippet" id="codeSnippet5">prompt("Are you enjoying the tutorial so far?")</p>
+        <input type="text" class="codeSnippet" id="codeSnippet5" value='prompt("Are you enjoying the tutorial so far?")'></input>
         <button class="copyButton" id="copyButton5">Copy to clipboard</button>
         <input class="input" id="input5" type="text">
         <button class="checkCode" id="checkCode5">Check code</button>
     </div>
 
-    <div id="div8">
-        <p><i class="fas fa-chart-line"></i> Wow! Do you realize how much JS you have learned so far? Now, what happens <button class="link" id="link5">if...</button></p>
+    <div class="hidden" id="div9">
+        <p><i class="fas fa-chart-line"></i> Wow! Do you realize how much JS you have learned so far? Now, what about <button class="link" id="link6">loops</button>?</p>
     </div>
 
-    <div  id="div9">
+    <div class="hidden" id="div10">
+        <h2>for Loop</h2>
+        <p>A for loop repeats until a specified condition evaluates to <span class="codeSnippet">false</span>.</p>
+        <p>A for statement looks as follows:</p>
+        <p><span class="codeSnippet">for([i];[condition];[increment]){ }</span></p>
+        <p>When a for loop executes, the following occurs:</p>
+            <p>The initializing expression <span class="codeSnippet">[i]</span> usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+            The <span class="codeSnippet">condition</span> expression is evaluated. If the value of <span class="codeSnippet">condition</span> is <span class="codeSnippet">true</span>, the loop statements execute. If the value is <span class="codeSnippet">false</span>, the for loop terminates.
+        </p>
+        <p>Type in the box below the for Loop:</p>
+        <input type="text" class="codeSnippet" id="codeSnippet6" value="for (var i = 0; i <= 6; i++) {console.log (i)}"></input>
+        <button class="copyButton" id="copyButton6">Copy to clipboard</button>
+        <input class="input" id="input6" type="text">
+        <button class="checkCode" id="checkCode6">Check code</button>
+    </div>
+
+    <div class="hidden" id="div11">
         <h2>if... else</h2>
         <p>The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed (else).</p>
         <div id="if">
