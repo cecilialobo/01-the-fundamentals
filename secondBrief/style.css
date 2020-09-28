@@ -71,6 +71,10 @@ i {
     color: #FF8811;
 }
 
+.link:focus {
+    outline: 0;
+}
+
 .input {
     margin: 1.5em 0;
     background-color: #DDDDE3;
