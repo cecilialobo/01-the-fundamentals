@@ -37,7 +37,9 @@ onClick ("div5", "link3");
 
 onClick ("div6", "link4");
 
+checkCode ("checkCode4", "codeSnippet4", "div7", "input4");
 
+onClick ("div8", "link5");
 
 //Does not work :(
 // function to copy the snippet of code
