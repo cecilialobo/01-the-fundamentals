@@ -52,9 +52,15 @@ i {
 
 .codeSnippet {
     font-family: 'Courier Prime', monospace;
+    font-size: 18px;
     font-weight: 400;
-    background-color: #E9E9ED;
-    width: fit-content;
+    /* background-color: #E9E9ED; */
+    width: 100%;
+    border: none;
+}
+
+.codeSnippet:focus {
+    outline: 0;
 }
 
 .link {
