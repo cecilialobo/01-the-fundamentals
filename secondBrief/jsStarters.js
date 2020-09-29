@@ -36,15 +36,13 @@ function copySnippet (codeSnippetId, copyButtonId) {
     })
 }
 
-// checkCode2("checkCode2", "for(var i=0; i<10;i++){console.log(i)}", "div3", "input2");
-
-
 onClick("div1", "link1");
 onClick("div2", "link2");
 onClick ("div5", "link3");
 onClick ("div6", "link4");
 onClick ("div8", "link5");
 onClick ("div10", "link6");
+onClick ("div12", "link7");
 
 checkCode ("checkCode1", "codeSnippet1", "p1", "input1");
 checkCode ("checkCode2", "codeSnippet2", "div3", "input2");
