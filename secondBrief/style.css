@@ -63,6 +63,10 @@ i {
     outline: 0;
 }
 
+span.codeSnippet {
+    background-color: #E9E9ED;
+}
+
 .link {
     background: none;
     color: #603483;
@@ -142,4 +146,8 @@ a:hover {
 
 .note {
     font-weight: 700;
+}
+
+ul {
+    line-height: 1.5;
 }
