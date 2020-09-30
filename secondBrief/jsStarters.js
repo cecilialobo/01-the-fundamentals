@@ -36,6 +36,15 @@ function copySnippet (codeSnippetId, copyButtonId) {
     })
 }
 
+// Scroll into view
+function scroll (divId, buttonId) {
+    let div = document.getElementById(divId)
+    let click = document.getElementById(buttonId)
+    click.addEventListener("click", function () {
+        div.scrollIntoView()
+    })  
+}
+
 onClick("div1", "link1");
 onClick("div2", "link2");
 onClick ("div5", "link3");
@@ -58,7 +67,19 @@ copySnippet ("codeSnippet4", "copyButton4");
 copySnippet ("codeSnippet5", "copyButton5");
 copySnippet ("codeSnippet6", "copyButton6");
 
-// Scroll into view
+scroll ("div1", "link1");
+scroll ("p1", "checkCode1");
+scroll ("div2", "link2");
+scroll ("div3", "checkCode2");
+scroll ("div4", "checkCode3");
+scroll ("div5", "link3");
+scroll ("div6", "link4");
+scroll ("div7", "checkCode4");
+scroll ("div8", "link5");
+scroll ("div9", "checkCode5");
+scroll ("div10", "link6");
+scroll ("div11", "checkCode6");
+
 // let div2 = document.getElementById("div2");
 // div2.addEventListener("click", function() {
 //     div2.scrollIntoView()
