@@ -18,11 +18,11 @@ function checkCode (buttonId, codeSnippetId, showId, inputId) {
         let inputVal = document.getElementById(inputId).value;
         if (inputVal == codeSnippet) {
             eval(codeSnippet)
-            show.style.display = "block"
+            show.style.display = "block";
         } else {
-            alert("Please, copy and paste the exact message.")
+            alert("Please, copy and paste the exact message.");
         }
-    })
+    });
 }
 
 // function to copy to clipboard
@@ -32,8 +32,8 @@ function copySnippet (codeSnippetId, copyButtonId) {
 
     copyButton.addEventListener("click", function() {
         codeSnippet.select()
-        document.execCommand("copy")
-    })
+        document.execCommand("copy");
+    });
 }
 
 // Scroll into view
@@ -41,16 +41,16 @@ function scroll (divId, buttonId) {
     let div = document.getElementById(divId)
     let click = document.getElementById(buttonId)
     click.addEventListener("click", function () {
-        div.scrollIntoView()
-    })  
+        div.scrollIntoView();
+    });
 }
 
 //Restart tutorial
 const restart = () => {
     let restartButton = document.getElementById("restart")
     restartButton.addEventListener("click", function(){
-        window.location.reload()
-    })
+        window.location.reload();
+    });
 }
 
 restart();
