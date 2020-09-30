@@ -45,6 +45,16 @@ function scroll (divId, buttonId) {
     })  
 }
 
+//Restart tutorial
+const restart = () => {
+    let restartButton = document.getElementById("restart")
+    restartButton.addEventListener("click", function(){
+        window.location.reload()
+    })
+}
+
+restart();
+
 onClick("div1", "link1");
 onClick("div2", "link2");
 onClick ("div5", "link3");
@@ -52,6 +62,7 @@ onClick ("div6", "link4");
 onClick ("div8", "link5");
 onClick ("div10", "link6");
 onClick ("div12", "link7");
+onClick ("div13", "link8");
 
 checkCode ("checkCode1", "codeSnippet1", "p1", "input1");
 checkCode ("checkCode2", "codeSnippet2", "div3", "input2");
@@ -79,8 +90,5 @@ scroll ("div8", "link5");
 scroll ("div9", "checkCode5");
 scroll ("div10", "link6");
 scroll ("div11", "checkCode6");
-
-// let div2 = document.getElementById("div2");
-// div2.addEventListener("click", function() {
-//     div2.scrollIntoView()
-// });
+scroll ("div12", "link7");
+scroll ("div13", "link8");
