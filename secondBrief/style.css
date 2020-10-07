@@ -28,7 +28,7 @@ h3 {
 
 .gitLink {
    text-decoration: none; 
-   color: #CB525A;
+   color: #B40456;
 }
 
 div {
@@ -85,10 +85,6 @@ span.codeSnippet {
     color: #FF8811;
 }
 
-.link:focus {
-    outline: 0;
-}
-
 .input {
     margin: 1.5em 0;
     background-color: #DDDDE3;
@@ -99,7 +95,7 @@ span.codeSnippet {
 .checkCode {
     height: 2rem;
     border: none;
-    background-color: #CB525A;
+    background-color: #B40456;
     opacity: 0.8;
     border-radius: 0.5em;
     color: snow;
@@ -140,7 +136,7 @@ a:hover {
     margin-bottom: 2em;
     width: fit-content;
     padding: 0 3em;
-    border: #CB525A 0.15em solid;
+    border: #B40456 0.15em solid;
     opacity: 0.8;
 }
 
